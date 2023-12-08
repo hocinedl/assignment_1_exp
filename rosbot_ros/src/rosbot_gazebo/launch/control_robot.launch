@@ -1,0 +1,10 @@
+<launch>
+  <!-- Run image_view to visualize camera output -->
+  <node name="image_view" pkg="image_view" type="image_view" respawn="false" output="screen">
+    <remap from="/image" to="/marker_publisher/result"/>
+  </node>
+
+  <!-- Run the node controlling the robot movement -->
+  <node name="robot_controller" pkg="rosbot_gazebo" type="simulation_robot_control.py" output="screen" />
+</launch>
+

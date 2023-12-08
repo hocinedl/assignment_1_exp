@@ -1,0 +1,12 @@
+<launch>
+  <!-- Run image_view to visualize camera output -->
+  
+  <!-- Run the marker publisher node -->
+  <node name="marker_publisher" pkg="aruco_ros" type="marker_publisher" output="screen">
+    <remap from="/image" to="/camera/rgb/image_raw"/>
+  </node>
+
+  <!-- Run the node controlling the robot movement -->
+  <node name="robot_controller" pkg="rosbot_gazebo" type="simulation_robot_control.py" output="screen" />
+</launch>
+
