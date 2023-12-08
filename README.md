@@ -12,7 +12,7 @@ This repository contains our solution for the 1st assignment of the Experimental
 
 This repository contains an implementation of an assignment where a robot is tasked to navigate through an environment with Aruco markers. The goal is to make the robot move towards specific markers in a predefined order.
 
-![Environment](resourcess/gazebo_environment.png)
+![Environment](Resourcess/gazebo_environment.png)
 
 The robot must follow these behaviors:
 
@@ -34,7 +34,7 @@ For marker detection, we modified the marker publisher node in the `aruco_ros` p
 - `/marker_size`: A topic that contains the size of the detected marker.
 
 This rqt Graph shows the ros nodes and their interactions:
-![rqt](resourcess/rqt_graph.png)
+![rqt](Resourcess/rqt_graph.png)
 
 #### Robot Control Node
 
@@ -54,7 +54,7 @@ In this node, the following functions have been implemented:
 
 More details about this node are in the following Flowchart:
 
-![Flowchart](resourcess/Flowchart_trial.jpeg)
+![Flowchart](Resourcess/Flowchart_trial.jpeg)
 
 ### REAL ROBOT (ROSBOT)
 
@@ -103,7 +103,7 @@ For the real robot, a few changes have been made. The topic `/camera/control/ima
 **You should expect something like this after following the steps:**
 
 
-![gazebo](resourcess/virtual-robot.gif)
+![gazebo](Resourcess/virtual-robot.gif)
 
 
 ### Real Robot
@@ -121,7 +121,7 @@ For the real robot, a few changes have been made. The topic `/camera/control/ima
     
 **Here is the video when we tested our code on the rosbot robot:**
 
-![Real_Robot](resourcess/Real_Robot3.gif)
+![Real_Robot](Resourcess/Real_Robot3.gif)
 
 
 ## Possible Improvements
