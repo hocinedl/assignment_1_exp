@@ -80,7 +80,7 @@ For the real robot, a few changes have been made. The topic `/camera/control/ima
 
     ```bash
     cd /../robot_ws/src
-    git clone https://github.com/hocinedl/Experimental_robotics_lab_1st_Assignment.git
+    git clone https://github.com/hocinedl/assignment_1_exp.git
     ```
 
 4. Build the workspace:
