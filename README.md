@@ -32,7 +32,7 @@ The robot must follow these behaviors:
 
 ## Implementation Details
 
-### VIRTUAL ROBOT (GAZEB SIMULATION)
+### VIRTUAL ROBOT (GAZEBO SIMULATION)
 
 #### Marker Detection Node
 
