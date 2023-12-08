@@ -128,4 +128,4 @@ For the real robot, a few changes have been made. The topic `/camera/control/ima
 
 - Add support for multiple rosbot robots working collaboratively.
 - Dynamically generate the marker list based on the environment.
-- When turning to find marker 1, save also the orientation of other markers, so when it's time for that markers, it already knows the orientation and which side to turn.
+- We can improve the aruco markers detection such that when the robot is spinning to look for a marker, it saves the orientation of other markers, this will help the robot to specify the turning direction while looking for other markers. For instance, when the robot is spinning to find marker 11, it saves also the orientation of other markers, so when the robot reaches the marker 11, it knows which direction have to turn without making a 180degree turn, this will reduce the time to finish the task.
