@@ -1,6 +1,8 @@
-# 1st Assignment 
+#  Experimental Robotics Lab - 1st Assignment
 
-This repository contains our solution for the 1st assignment of the Experimental Robotics Lab course.
+
+Welcome to the repository for the first assignment in the Experimental Robotics Lab course. This project focuses on the implementation of a robot navigation task using Aruco markers in both simulation (Gazebo environment) and with a real robot.
+
 
 ## Group Members:
 
@@ -20,6 +22,13 @@ The robot must follow these behaviors:
 - Marker 12 -> rotate until you find marker 13; then reach marker 13
 - Marker 13 -> rotate until you find marker 15; then reach marker 15
 - Marker 15 -> done!
+  
+## Repository Structure
+
+- **aruco_ros:** Modifications to the marker publisher node for detecting Aruco markers and publishing relevant information.
+- **rosbot_gazebo:** Configuration files and launch scripts for simulating the robot in Gazebo, and also it contains the node that controls the robot movement.
+- **Resources**: This folder includes images, videos, and other resources used in the README and for demonstration purposes.
+
 
 ## Implementation Details
 
