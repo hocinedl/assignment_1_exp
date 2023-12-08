@@ -63,7 +63,7 @@ In this node, the following functions have been implemented:
 
 More details about this node are in the following Flowchart:
 
-![Flowchart](Resourcess/Flowchart_trial.jpeg)
+![Flowchart](Resourcess/Flowchart.png)
 
 ### REAL ROBOT (ROSBOT)
 
